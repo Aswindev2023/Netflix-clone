@@ -1,0 +1,347 @@
+ @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #141414;
+}
+
+.container {
+    background-color: #141414;
+    
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand img {
+    width: 130px; /* Adjust the width as needed */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size:small;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #e50914; /* Netflix red color */
+}
+
+.buttons {
+    background-color: #e50914;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.buttons a {
+    color: #fff;
+}
+
+.buttons:hover {
+    background-color: #ff0a16; /* Slightly darker red on hover */
+}
+
+
+.container {
+    text-align: center;
+}
+
+
+.main {
+  width: 100%;
+  margin-top: -100px;
+  background-size: cover;
+  align-items: center;
+  overflow-x: hidden;
+  justify-content: center;
+  display: flex;
+  background-position: center;
+  min-height: 710px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/f9368347-e982-4856-a5a4-396796381f28/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+.area {
+  color: white;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+   
+
+
+.area h1 {
+    margin: 0;
+
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 1.2;
+}
+
+
+.area h3 {
+  font-size: 1.5em;
+  margin: 0;
+  padding-top: 25px;
+  font-weight: normal;
+}
+.area h4 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+  }
+.search {
+  width: 150%;
+  background-color: none;
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin-top: 10px;
+}
+.box {
+    width: 250px;
+    padding: 10px;
+    
+    border: none;
+    border-radius: 3px;
+}
+
+
+.try {
+    display: inline-block;
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.try i {
+    margin-left: 5px;
+}
+
+.try:hover {
+    background-color: #ff0a16;
+}
+
+.container1 {
+  width: 100%;
+  margin-top: 10px;
+  min-height: 460px;
+  background-color: black;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.container1 img {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  object-fit: contain;
+  object-position: center;
+  align-self: center;
+
+  max-width: 100%;
+  height: 350px;
+}
+
+.container1 .image {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  object-fit: contain;
+}
+
+.container1 .text {
+    max-width: 400px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: center;
+  align-content: center;
+}
+.text p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.text h1 {
+    color: #fff;
+  font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+.faq-section {
+    margin-top: 10px;
+    background-color: #141414;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.faq-section h1 {
+    color: #f5f5f5;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.accordion {
+    max-width: 700px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    
+    margin: 10px 0;
+    border:none;
+    border-radius: 5px;
+}
+
+.accordion-header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.accordion-button {
+    -webkit-text-fill-color: #424242;
+    background-color: #424242;
+    font-weight: bold;
+    
+    
+    cursor: pointer;
+    outline: none;
+}
+
+.accordion-collapse {
+    background-color: #424242;
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.accordion-body {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.footer-email-section {
+    background-color: #141414;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.box1 {
+    padding: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.try1 {
+    background-color: #e50914;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.try1:hover {
+    background-color: #ff3f33;
+}
+.footer-email-section h2{
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #141414;
+    color: #757575;
+    padding: 40px 0;
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 200px;
+}
+
+.footer h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    color: white;
+}
+.end{
+    background-color: #141414;
+    color: #f5f5f5;
+    padding-left: 80px;
+    font-size: 15px;
+    text-align: center;
+}
